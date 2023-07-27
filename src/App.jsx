@@ -2,10 +2,9 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+const imgURL = "https://images.pexels.com/photos/1170986/pexels-photo-1170986.jpeg";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
         <h1>Sung Yi</h1>
@@ -18,7 +17,7 @@ function App() {
         </div>
 
         <img
-        src="https://images.pexels.com/photos/1170986/pexels-photo-1170986.jpeg"
+        src={ imgURL }
         alt=""
         />
 
