@@ -1,0 +1,73 @@
+h1 {
+  font-family: fantasy;
+  font-size: 30px;
+  color: purple;
+}
+
+h2{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  text-align: center;
+  border: 1px;
+  border-color: red;
+  border-radius: 25px;
+  color:blue;
+  background-color: lightpink;
+  padding-left: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ol {
+  font-weight: bold;
+  list-style-position: inside; 
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+img {
+  height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background: url("https://images.pexels.com/photos/1170986/pexels-photo-1170986.jpeg");
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  
+
+}
+img:hover{
+  height: 200px;
+  background: url("https://hips.hearstapps.com/hmg-prod/images/beautiful-smooth-haired-red-cat-lies-on-the-sofa-royalty-free-image-1678488026.jpg");
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 2px 1px gray;
+  display: block;
+}
+
+body {
+  font-family: sans-serif;
+  background: url("https://images.hdqwalls.com/download/windows-xp-bliss-4k-lu-2048x1152.jpg");
+}
+
+h3 {
+  text-decoration: underline;
+}
+
+p{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: Impact, 'Arial Narrow Bold', sans-serif;
+}
+
+a:hover{
+  color:greenyellow;
+  font-weight:bold;
+}
