@@ -2,6 +2,8 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import './index.css'
+
 const imgURL = "https://images.pexels.com/photos/1170986/pexels-photo-1170986.jpeg";
 
 function App() {
@@ -17,11 +19,11 @@ function App() {
         </div>
 
         <img
-        src={ imgURL }
-        alt=""
+            src={ imgURL }
+            alt=""
         />
 
-        <div>
+        <div className='skill_list'>
             <h3>Here are some of my Skills!</h3>
             <ul>
                 <h3>Languages</h3>
@@ -41,7 +43,7 @@ function App() {
         </div>
 
         <div>
-        <h3>Hardest Bug So Far</h3>
+            <h3>Hardest Bug So Far</h3>
             <p>
                 My hardest bug I ever came across was this infinite loop I couldn't
                 escape.
